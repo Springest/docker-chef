@@ -2,7 +2,10 @@
 # Cookbook Name:: docker-chef
 # Recipe:: default
 #
-# Copyright (C) 2014 YOUR_NAME
-# 
-# All rights reserved - Do Not Redistribute
+# Installs/Configures Docker on Ubuntu.
 #
+# Copyright (C) 2014 Springest
+# License: MIT
+#
+
+include_recipe "docker::install"

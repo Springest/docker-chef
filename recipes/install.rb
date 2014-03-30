@@ -1,11 +1,12 @@
-# Docker Cookbook for Chef
 #
-# Docker::Install
-# ---
+# Cookbook Name:: docker-chef
+# Recipe:: install
+#
 # Installs Docker package on Ubuntu.
 #
-# (c) 2014 Springest – developers@springest.com
+# Copyright (C) 2014 Springest
 # License: MIT
+#
 
 package "linux-image-extra-#{node['kernel']['release']}"
 
