@@ -12,7 +12,7 @@ Ubuntu or Debian release.
 
 # Usage
 
-Just add "recipe[docker::install]" to your node/role's runlist.
+Just add `"recipe[docker]"` to your node/role's runlist.
 
 # Attributes
 
@@ -20,10 +20,12 @@ Just add "recipe[docker::install]" to your node/role's runlist.
 
 # Recipes
 
-```
-docker::install
+```ruby
+recipe "docker",           "Includes recipes for a default install/configuration."
+recipe "docker::install",  "Installs Docker through an apt package."
 ```
 
-# Author
+# Contributors
 
-Author:: Wouter de Vos – Springest (developers@springest.com)
+- Wouter de Vos – Springest (developers@springest.com)
+
