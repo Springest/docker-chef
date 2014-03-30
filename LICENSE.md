@@ -2,7 +2,7 @@ The MIT License
 
 Copyright (c) 2010-2014 Springest, Wouter de Vos, and other contributors
 
-http://github.com/Springest/docker-chef/README.md#contributors
+http://github.com/Springest/docker-chef#contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
