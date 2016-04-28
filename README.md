@@ -1,3 +1,11 @@
+This project is **no longer maintained**.
+
+If you're interested in taking it over, we'd love to hear from you.
+Email [developers@springest.com](mailto:developers@springest.com), or check out
+one of its maintained forks.
+
+*****
+
 # Docker Cookbook
 
 ![](http://img.springe.st/2014_03_30_15_31_50_ndx9x.jpg)
